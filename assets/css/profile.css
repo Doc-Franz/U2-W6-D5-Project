@@ -1,0 +1,51 @@
+#strive-student {
+  margin-bottom: 55px;
+}
+
+#pencil {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background-color: black;
+  border-radius: 50%;
+  border: 2px solid white;
+  position: absolute;
+  top: 120px;
+  left: 20px;
+  text-decoration: none;
+}
+
+@media screen and (min-width: 992px) {
+  #strive-student {
+    margin-bottom: 35px;
+  }
+  #pencil {
+    top: 100px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  #strive-student {
+    margin-bottom: 60px;
+  }
+  #pencil {
+    top: 120px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  #strive-student {
+    margin-bottom: 90px;
+  }
+  #pencil {
+    top: 150px;
+  }
+}
+
+i:hover {
+  color: white;
+}
+
+.btn:hover {
+  background-color: white;
+}
